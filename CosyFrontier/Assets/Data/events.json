@@ -1,0 +1,19 @@
+[
+    {
+        "id": "test_event",
+        "title": "Test Event",
+        "description": "This is an example of an event used to test the application",
+        "options":
+        [
+            {
+                "description": "Option 1"
+            },
+            {
+                "description": "Option 2"
+            },
+            {
+                "description": "Option 3"
+            }
+        ]
+    }
+]

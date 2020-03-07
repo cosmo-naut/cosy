@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    EventController eventController;
+    public TextAsset eventDataAsset;
+    private void Awake()
+    {
+        eventController = new EventController(eventDataAsset);
+    }
+
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
